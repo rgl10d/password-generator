@@ -10,5 +10,10 @@ function writePassword() {
 
 }
 
+function generatePassword(){
+
+  return "This will be replaced by my generated password.";
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
