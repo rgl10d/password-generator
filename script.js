@@ -24,10 +24,10 @@ function generatePassword(){
   do {
     passwordLength = parseInt(prompt("How many characters would you like in your password?"));
     
-    if(passwordLength < 8 || passwordLength > 128){
+    if(passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)){
       alert("Please choose a number between 8 and 128.");
     }
-  } while (passwordLength < 8 || passwordLength > 128);
+  } while (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength));
 
 
   do {
