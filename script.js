@@ -56,7 +56,7 @@ function generatePassword(){
     }
 
     if(!passwordLowerCase && !passwordUpperCase && !passwordNumber && !passwordSpecial){
-      alert("You need to choose at least one option.");
+      alert("You must confirm at least one type of character.");
     }
     
   } while (!passwordLowerCase && !passwordUpperCase && !passwordNumber && !passwordSpecial);
